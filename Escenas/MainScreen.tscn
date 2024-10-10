@@ -1,0 +1,114 @@
+[gd_scene load_steps=6 format=3 uid="uid://b8q0o577xesis"]
+
+[ext_resource type="Script" path="res://Script/World.gd" id="1_bwjk2"]
+[ext_resource type="Texture2D" uid="uid://62f2gkyw4jg3" path="res://icon.svg" id="2_4cgeo"]
+[ext_resource type="PackedScene" uid="uid://c2mrowxidnjlt" path="res://Escenas/Bob.tscn" id="2_gtj0t"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tnhx8"]
+texture = ExtResource("2_4cgeo")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:0/0 = 0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:0/0 = 0
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:1/0 = 0
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_hfhh1"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_tnhx8")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_bwjk2")
+main_camera = NodePath("CharacterBody2D/Camera2D")
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_hfhh1")
+format = 2
+layer_0/tile_data = PackedInt32Array(4194370, 196608, 0, 4194371, 196608, 0, 4194372, 196608, 0, 4194373, 196608, 0, 4194374, 196608, 0, 4194375, 196608, 0, 4194376, 196608, 0, 4194377, 196608, 0, 4194378, 196608, 0, 4194379, 196608, 0, 4194380, 196608, 0, 4194381, 196608, 0, 4194382, 196608, 0, 4194383, 196608, 0, 4194384, 196608, 0, 4194385, 196608, 0, 4194386, 196608, 0, 4194387, 196608, 0, 4194388, 196608, 0, 4194389, 196608, 0, 4194390, 196608, 0, 4194391, 196608, 0, 4194392, 196608, 0, 4194393, 196608, 0, 4194394, 196608, 0, 4194395, 196608, 0, 4194396, 196608, 0, 4194397, 196608, 0, 4194398, 196608, 0, 4194399, 196608, 0, 4194400, 196608, 0, 4194401, 196608, 0, 4194402, 196608, 0, 4194403, 196608, 0, 4194404, 196608, 0, 4194405, 196608, 0, 4194406, 196608, 0, 4194407, 196608, 0, 4194408, 196608, 0, 4194409, 196608, 0, 4194410, 196608, 0, 4194411, 196608, 0, 4194412, 196608, 0, 4194413, 196608, 0, 4194414, 196608, 0, 4194415, 196608, 0, 4194416, 196608, 0, 4194417, 196608, 0, 4194418, 196608, 0, 4194419, 196608, 0, 4194420, 196608, 0, 4194421, 196608, 0, 4194422, 196608, 0, 4194423, 196608, 0, 4194304, 196608, 0, 4194305, 196608, 0, 4194306, 196608, 0, 4194307, 196608, 0, 4194308, 196608, 0, 4194309, 196608, 0, 4194310, 196608, 0, 4194311, 196608, 0, 4194312, 196608, 0, 4194313, 196608, 0, 4194314, 196608, 0, 4194315, 196608, 0, 4194316, 196608, 0, 4194317, 196608, 0, 4194318, 196608, 0, 4194319, 196608, 0, 4194320, 196608, 0, 4194321, 196608, 0, 4194322, 196608, 0, 4194323, 196608, 0, 4194324, 196608, 0, 4194325, 196608, 0, 4194326, 196608, 0, 4194327, 196608, 0, 4194328, 196608, 0, 4194329, 196608, 0, 4194330, 196608, 0, 4194331, 196608, 0, 4194332, 196608, 0, 4194333, 196608, 0, 4194334, 196608, 0, 4194335, 196608, 0, 4194336, 196608, 0, 4194337, 196608, 0, 4194338, 196608, 0, 4194339, 196608, 0, 4194340, 196608, 0, 4194341, 196608, 0, 4194342, 196608, 0, 4194343, 196608, 0, 4194344, 196608, 0, 4194345, 196608, 0, 4194346, 196608, 0, 4194347, 196608, 0, 4194348, 196608, 0, 4194349, 196608, 0, 4194350, 196608, 0, 4194351, 196608, 0, 4194352, 196608, 0, 4194353, 196608, 0, 4194354, 196608, 0, 4194355, 196608, 0, 4194356, 196608, 0, 4194357, 196608, 0, 4194358, 196608, 0, 4194359, 196608, 0, 4194360, 196608, 0, 4194361, 196608, 0, 4194362, 196608, 0, 4194363, 196608, 0, 4194364, 196608, 0, 4194365, 196608, 0, 4194366, 196608, 0, 4194367, 196608, 0, 4194368, 196608, 0, 4194369, 196608, 0)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_gtj0t")]
+position = Vector2(489, -83)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
